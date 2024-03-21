@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 12 Project page</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="reservation.css" />
+  </head>
+
+<!-- Coding Steps:
+a. Create a full CRUD application of your choice using an API or JSON Server.
+b. Use JQuery/AJAX to interact with the API. 
+c. Use a form to post new entities.
+d. Build a way for users to update or delete entities.
+e. Include a way to get entities from the API.
+f. Use Bootstrap and CSS to style your project.
+-->
+
+<!-- Making an reservation for restaurant.  -->
+  <body class="container">
+    <div id="new-reservation" class="jumbotron">
+        <h2 id="inst">Make a Reservation</h2>
+        <h6 id="inst">Please enter your name to begin</h6>
+        <input type="text" id="new-reservation-name" class="form-control"><br>
+        <button type="button" id="create-new-reservation" class="btn btn-success form-control">Create</button>
+    </div>
+    </br>
+        
+          <div id="reserve-table"></div>
+
+    <link rel="stylesheet" href="reservation.css" />
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="reservation.js"></script>
+  </body>
+</html>
